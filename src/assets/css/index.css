@@ -3,7 +3,73 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-#form {
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+body.page_home {
+  background-color: white;
+}
+/* FORMULAIRE CONNEXION */
+#form, #info {
   margin: 10% 20% 0;
 }
+/* NAVIGATION */
+#nav.nav {
+  width: 150px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #30475e;
+  position: fixed;
+  text-align: center;
+}
+#nav.nav .navigate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#nav.nav .navigate span {
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: white;
+  padding: 3px 0;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+}
+#nav.nav .navigate span.active {
+  background-color: #2b4054;
+}
+.user i {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  color: #54e346;
+}
+#userConnected {
+  overflow-wrap: break-word;
+  color: white;
+  display: block;
+  max-width: 150px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+#logout {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+}
+#logout:hover {
+  transform: translateY(-1px);
+}
+/* PAGE */
+.wrapper {
+  height: 100%;
+  padding: 20px 20px 0 170px;
+}
+.nav .navigate .item {
+  cursor: pointer;
+}
+.action { cursor: pointer; }
+#trash { color: red; }
+#edit { color: blue; }
