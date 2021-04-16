@@ -32,9 +32,8 @@ body.page_home {
 }
 #nav.nav .navigate span {
   cursor: pointer;
-  margin-bottom: 10px;
   color: white;
-  padding: 3px 0;
+  padding: 5px 0;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
@@ -55,6 +54,10 @@ body.page_home {
   max-width: 150px;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+#userConnected2 {
+  font-style: italic;
+  font-weight: 400;
+}
 #logout {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
@@ -67,9 +70,17 @@ body.page_home {
   height: 100%;
   padding: 20px 20px 0 170px;
 }
+.jumbotron {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
 .nav .navigate .item {
   cursor: pointer;
 }
 .action { cursor: pointer; }
 #trash { color: red; }
 #edit { color: blue; }
+.btn-new {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
