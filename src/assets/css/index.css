@@ -10,8 +10,18 @@ body.page_home {
   background-color: white;
 }
 /* FORMULAIRE CONNEXION */
-#form, #info {
+#form {
   margin: 10% 20% 0;
+}
+#info {
+  margin: 0 20% 0;
+}
+#suite {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* NAVIGATION */
 #nav.nav {

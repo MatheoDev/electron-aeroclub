@@ -27,7 +27,8 @@ loginBtn.addEventListener('click', (e) => {
                 info.innerHTML = ''
                 localStorage.setItem('token', json.token)
                 localStorage.setItem('user', email.value)
-                suite.innerHTML = '<a class="btn btn-secondary" id="continue" href="window/home.html">Acceder au backoffice</a>'
+                document.getElementById('container').innerHTML = ''
+                suite.innerHTML = '<h1 class="welcome">Bienvenue <span id="userConnected2">'+localStorage.getItem('user')+'</span></h1><a class="btn btn-secondary" id="continue" href="window/home.html">Acceder au backoffice</a>'
             } else {
                 info.innerHTML = '<div class="alert alert-warning alert-dismissible fade show" role="alert">' + json.message + '<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>'
             }
