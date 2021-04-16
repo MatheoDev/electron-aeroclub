@@ -37,7 +37,7 @@ body.page_home {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease;
 }
-#nav.nav .navigate span.active {
+#nav.nav .navigate span.active, #nav.nav .navigate span:hover {
   background-color: #2b4054;
 }
 .user i {

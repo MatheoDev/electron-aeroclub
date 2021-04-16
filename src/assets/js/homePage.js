@@ -38,14 +38,8 @@ function suppLine(num, type) {
     }
 }
 
-function majLine(el) {
-    console.log(el)
-}
-
-const makePage = (tab) => {
-    tab.forEach(element => {
-        console.log(element)
-    });
+function majLine(num) {
+    localStorage.setItem('editNum', num)
 }
 
 logoutBtn.addEventListener('click', (e) => {
