@@ -10,7 +10,7 @@ const instructeursItem = document.getElementById('instructeurs')
 const membresItem = document.getElementById('membres')
 const seqvolsItem = document.getElementById('seqvols')
 
-let service = new APISerice()
+let service = new APIService()
 
 function suppLine(num, type) {
     let myHeaders = {

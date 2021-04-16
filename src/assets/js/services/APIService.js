@@ -1,4 +1,4 @@
-class APISerice {
+class APIService {
     constructor() {
         this.url = 'http://localhost:8080/api'
         let myHeaders = {
