@@ -17,7 +17,6 @@ body.page_home {
   margin: 0 20% 0;
 }
 #suite {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

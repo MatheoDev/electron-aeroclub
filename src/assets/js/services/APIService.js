@@ -23,7 +23,7 @@ class APIService {
                         element.type+'</td><td>'+element.immatriculation+
                         '</td><td><i class="far fa-trash-alt action text-danger" id="trash" onclick="suppLine('+
                         element.numAvion+', \'avions\')"></i> <a href="form/_editAvion.html" class="far action fa-edit text-info" id="edit" onclick="majLine('+
-                        element.numAvion+', \'avions\')"></a></td></tr>'
+                        element.numAvion+')"></a></td></tr>'
                     })
                     html += '</tbody></table>'
                     wrapper.innerHTML = html
@@ -44,8 +44,8 @@ class APIService {
                         element.libelle+'</td><td>'+element.heure+
                         '</td><td>'+element.prix+
                         '</td><td><i class="far fa-trash-alt action text-danger" id="trash" onclick="suppLine('+
-                        element.id+', \'forfaits\')"></i> <i class="far action fa-edit text-info" id="edit" onclick="majLine('+
-                        element.id+', \'forfaits\')"></i></td></tr>'
+                        element.id+', \'forfaits\')"></i> <a href="form/_editForfait.html" class="far action fa-edit text-info" id="edit" onclick="majLine('+
+                        element.id+')"></a></td></tr>'
                     })
                     html += '</tbody></table>'
                     wrapper.innerHTML = html

@@ -25,6 +25,7 @@ loginBtn.addEventListener('click', (e) => {
         .then((json) => {
             if (json.token) {
                 info.innerHTML = ''
+                suite.style.height = '100vh'
                 localStorage.setItem('token', json.token)
                 localStorage.setItem('user', email.value)
                 document.getElementById('container').innerHTML = ''

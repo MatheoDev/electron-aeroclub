@@ -45,7 +45,6 @@ create.addEventListener('click', (e) => {
         }
 
         let json = { "libelle": valueLibelle, "heure": valueHeure, "prix": valuePrix, "numAvion": avForfait }
-        console.log(json,valueHeure)
     
         let config = {
             method: 'POST',
